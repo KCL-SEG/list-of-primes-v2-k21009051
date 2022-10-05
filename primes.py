@@ -11,7 +11,7 @@ def primes(number_of_primes):
         prime = True
 
         for i in range(2,(testing_number//2)+1):
-            if testing_number % 1 == 0:
+            if testing_number % i == 0:
                 prime = False
                 break
 
